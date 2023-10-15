@@ -1,0 +1,1 @@
+n=1;gets.to_i.times{|i|puts (0..i).map{|j|n=j>0?n*(i-j+1)/j:n}*' '}
